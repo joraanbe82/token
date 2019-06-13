@@ -1,0 +1,7 @@
+extends template/default
+
+block content
+ h1= title
+ p Welcome to adasd #{title}
+ if isAuthenticated
+   p='Bienvenido '+ user.nombre + ' ' +user.email
